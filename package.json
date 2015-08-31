@@ -1,11 +1,13 @@
 {
   "dependencies": {
     "gulp": "*",
-    "gulp-qunit": "*",
     "gulp-sourcemaps": "*",
     "gulp-babel": "*",
     "gulp-jshint": "*",
     "jshint-stylish": "*",
     "gulp-concat": "*"    
+  },
+  "devDependencies": {
+    "gulp-qunit": "*"
   }
 }
