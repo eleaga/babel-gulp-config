@@ -33,7 +33,9 @@ gulp.task('jshint', function () {
 gulp.task("babel", function () {
   return gulp.src("babel/*.js")
     .pipe(sourcemaps.init())
-    .pipe(babel())
+    .pipe(babel({
+        presets: ['es2015']
+    }))
     .pipe(concat("babel.js"))
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest("js"));

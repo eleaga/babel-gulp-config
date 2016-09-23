@@ -6,5 +6,5 @@ QUnit.test( "Testando a classe calc", function( assert ) {
 	mult = calc.mult();
 
 	//assert
-	assert.ok( calc.mult() == '6', "Mult deve retornar 6" );
+	assert.ok( calc.mult() == '6', "Mult deve retornar 6 " );
 });
