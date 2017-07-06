@@ -11,6 +11,9 @@ class calc{
   }
   
   somar() {
-  	return this.x+this.y;
+    return this.x+this.y;
+  }
+  subtrai() {
+    return this.x-this.y;
   }
 }

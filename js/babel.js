@@ -23,6 +23,11 @@ var calc = function () {
     value: function somar() {
       return this.x + this.y;
     }
+  }, {
+    key: "subtrai",
+    value: function subtrai() {
+      return this.x - this.y;
+    }
   }]);
 
   return calc;
