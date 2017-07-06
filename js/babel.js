@@ -16,6 +16,7 @@ var calc = function () {
     key: "mult",
     value: function mult() {
       return this.x * this.y;
+      //linha a mais
     }
   }, {
     key: "somar",
