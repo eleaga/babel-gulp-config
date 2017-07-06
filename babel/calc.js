@@ -6,7 +6,7 @@ class calc{
   }
 
   mult() {
-  	return this.x*this.y;
+  	return this.x-this.y;
   }
   
   somar() {
